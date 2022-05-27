@@ -18,7 +18,7 @@
 
     <servlet>
         <servlet-name>logout</servlet-name>
-        <servlet-class>taxi.controller.LoginController</servlet-class>
+        <servlet-class>taxi.controller.LogoutController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>logout</servlet-name>
@@ -36,7 +36,7 @@
 
     <servlet>
         <servlet-name>driverCars</servlet-name>
-        <servlet-class>taxi.controller.LoginController</servlet-class>
+        <servlet-class>taxi.controller.driver.GetMyCurrentCarsController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>driverCars</servlet-name>
